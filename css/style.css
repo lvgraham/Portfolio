@@ -5,3 +5,25 @@
 .t-10{
   margin-top: 10px;
 }
+
+.card-img-top{
+  opacity: 0.75;
+}
+
+#email {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+#linkedin {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+#github {
+  width: 55%;
+  display: block;
+  margin: 0 auto;
+}
