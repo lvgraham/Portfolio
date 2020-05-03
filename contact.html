@@ -4,73 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a95f368e8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Lia's Contact Info</title>
 </head>
-<body>
-  <div class="container">
-      <div class="row t-30 bg-info">
-        <div class="col-6">
-            <h1>Lia Graham</h1>
-        </div>
-        <div class="col-6 t-10">
-            <ul class="nav justify-content-end bg-info">
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="index.html" id="home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div> 
+<body></body>
+  <main class="container">
+
+    <!-- header/navbar -->
+    <nav class="row t-30 bg-info">
+      <div class="col-6">
+          <h1>Lia Graham</h1>
       </div>
-  
+      <div class="col-6 t-10">
+          <ul class="nav justify-content-end bg-info">
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="index.html" id="home">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="contact.html">Contact</a>
+              </li>
+          </ul>
+      </div> 
+    </nav>
+    <br>
 
-      <!--<div class="card-deck">
+    <!-- contact form -->
+    <form class="container">
+      <div class="row">
+        <h2>Contact:</h2>
+      </div>
+      <br>
+      <div class="form-row">
+        <label>Email address</label>
+        <input type="text" class="form-control" placeholder="yourname@me.com">
+      </div>
+      <br>
+      <div class="form-row">
+        <label>Name</label>
+        <input type="text" class ="form-control" placeholder="your name here">
+      </div>
+      <br>
+      <div class="form-row">
+        <label>Message</label>
+        <textarea class="form-control" rows="3" placeholder="Hi Lia, what a great portfolio. Reaching out because..."></textarea>
+      </div>
+      <br>
+      <div class="form-row">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+    </form>
 
-          <div class="card">
-            <img src="./images/email.png" class="card-img-top" alt="email icon" id="email">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-
-          <div class="card">
-            <img src="./images/linkedin.png" class="card-img-top" alt="linkedin icon" id="linkedin">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="/images/github.png" class="card-img-top" alt="github icon" id="github">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-      </div> -->
-
-
-        <div class="container">
-          <h2>Contact me:</h2>
-    
-                <ul>
-                    <li>E-mail: <a href="mailto:liavibanez@gmail.com">liavibanez@gmail.com</a></li>
-                    <li>Github: <a href="https://github.com/lvgraham">lvgraham</a></li>
-                    <li>Connect: <a href="https://www.linkedin.com/in/lia-graham-1103a292/">linkedin</a></li>
-                </ul>
-                
-        </div>
-  </div>
+    <!-- footer -->
+    <footer class="d-flex justify-content-center">
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/lia-graham-1103a292/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://github.com/lvgraham" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="mailto:liavibanez@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+  </main>
     
 </body>
 </html>
