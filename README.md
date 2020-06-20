@@ -1,5 +1,5 @@
-# Objective
-The objective of this project was to create a dynamic portfolio in order to showcase my development projects utilizing tools learned thus far including HTML, CSS, and Boostrap.
+# Overview
+This is my portfolio to showcase the projects I have worked on utilizing tools and skills I have learned on my path to becoming a web developer. 
 
 
 # Acceptance Criteria

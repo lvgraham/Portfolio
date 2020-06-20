@@ -55,4 +55,24 @@
   //   }
   // });
 
+  //magnific popup for button 
+  
+  $('#preview').magnificPopup({
+    items: [
+      {
+        src: 'images/campsc.png'
+      },
+      {
+        src: 'images/jsquizsc.png'
+      },
+      {
+        src: 'images/weatherdashsc.png'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' 
+});
+
 })(jQuery); // End of use strict
