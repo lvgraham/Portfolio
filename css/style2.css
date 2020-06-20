@@ -38,9 +38,8 @@
 }
 
 #preview{
-display: inline-block;
-font-weight: 400;
-color: white;
-text-align: center;
-vertical-align: middle;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
 }
