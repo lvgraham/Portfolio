@@ -10119,6 +10119,18 @@ header.masthead h1 {
     font-size: 3rem;
   }
 }
+@media (max-width: 900px){
+  header.masthead {
+    height: 100vh;
+    min-height: 20rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+    background: linear-gradient(to bottom, rgba(117, 85, 66, 0.352) 0%, rgba(152, 136, 125, 0.482) 100%), url("../images/backgroundimgmobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.5rem;
