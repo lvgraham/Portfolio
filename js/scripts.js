@@ -59,24 +59,27 @@
   
   $('#preview').magnificPopup({
     items: [
+      // {
+      //   src: 'images/campsc.png'
+      // },
+      // {
+      //   src: 'images/weborganizersc.png'
+      // },
       {
-        src: 'images/campsc.png'
-      },
-      {
-        src: 'images/weborganizersc.png'
+        src: 'images/whatshouldiwatchsc.png'
       },
       {
         src: 'images/burgertimesc.png'
       },
       {
         src: 'images/jsquizsc.png'
-      },
-      {
-        src: 'images/weatherdashsc.png'
-      },
-      {
-        src: 'images/notetakersc.png'
       }
+      // {
+      //   src: 'images/weatherdashsc.png'
+      // },
+      // {
+      //   src: 'images/notetakersc.png'
+      // }
     ],
     gallery: {
       enabled: true
